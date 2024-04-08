@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="75704E85-C310-31F4-AE27-4C9BACF61AF3" name="DriverLicense">
+<createdBy>Pavel</createdBy>
+<createdTime>2024-04-06 11:52:18 UTC</createdTime>
+<generatorID>503CDAC1-D512-A400-A9F2-22B2127DAE37</generatorID>
+<ownerDesignName>qwert</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="LicenceNumber" id="8EDF1194-D7C6-6D3E-F5A8-9753949D5EBB">
+<createdBy>Pavel</createdBy>
+<createdTime>2024-04-06 11:52:18 UTC</createdTime>
+<comment><![CDATA[The number of licence]]></comment>
+<commentInRDBMS><![CDATA[The number of licence]]></commentInRDBMS>
+<generatorID>D2A43BF1-FE71-E103-24CF-DB5BA4EEC4A0</generatorID>
+<ownerDesignName>qwert</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DriverLicense_ID" id="A036DF6F-6F26-3F94-C1C7-F7018B8E336D">
+<createdBy>Pavel</createdBy>
+<createdTime>2024-04-06 11:52:18 UTC</createdTime>
+<ownerDesignName>qwert</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="Client_Client_ID" id="4DAAB076-3D69-1D7D-E7A4-AB26EC6DB49C">
+<createdBy>Pavel</createdBy>
+<createdTime>2024-04-06 11:52:18 UTC</createdTime>
+<ownerDesignName>qwert</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F11E38DD-DDA2-C4D8-7744-79576C1F9165" referredColumn="5E19B1C0-7C5D-ADEF-3AFF-34B5406ECBCE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7A064FC4-BEA4-7D0C-5F2C-0B59FDCD2445" name="DriverLicense_PK">
+<createdBy>Pavel</createdBy>
+<createdTime>2024-04-06 11:52:18 UTC</createdTime>
+<ownerDesignName>qwert</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="A036DF6F-6F26-3F94-C1C7-F7018B8E336D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B70D8A59-399B-95D7-3A47-E0EF1FFEF1B9" name="DriverLicense_Client_FK">
+<createdBy>Pavel</createdBy>
+<createdTime>2024-04-06 11:52:18 UTC</createdTime>
+<generatorID>969F6288-818C-D9E4-E201-507184BF8676</generatorID>
+<ownerDesignName>qwert</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4DAAB076-3D69-1D7D-E7A4-AB26EC6DB49C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

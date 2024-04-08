@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="49D98C2F-4254-36CE-94F0-8C5D3DA683CE" name="TypeOfRent">
+<createdBy>Pavel</createdBy>
+<createdTime>2024-04-06 03:52:38 UTC</createdTime>
+<ownerDesignName>qwert</ownerDesignName>
+<engineerTo>
+<item key="7CF1D746-5194-E6D4-6F1B-CC8CB86CB329" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<synonym>Тип Аренды</synonym>
+<synonymToDisplay>Тип Аренды</synonymToDisplay>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Currency" id="3169C44D-D2D5-B91D-FD23-BF87A06EB058">
+<createdBy>Pavel</createdBy>
+<createdTime>2024-04-06 03:53:04 UTC</createdTime>
+<ownerDesignName>qwert</ownerDesignName>
+<engineerTo>
+<item key="7CF1D746-5194-E6D4-6F1B-CC8CB86CB329" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cost" id="52D615A8-E385-1505-BA1F-4BEBAEF2CDB9">
+<createdBy>Pavel</createdBy>
+<createdTime>2024-04-06 03:53:29 UTC</createdTime>
+<ownerDesignName>qwert</ownerDesignName>
+<engineerTo>
+<item key="7CF1D746-5194-E6D4-6F1B-CC8CB86CB329" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="StartTime" id="BC0A62C5-05F5-7FE3-4B62-0B9788685161">
+<createdBy>Pavel</createdBy>
+<createdTime>2024-04-06 03:54:25 UTC</createdTime>
+<ownerDesignName>qwert</ownerDesignName>
+<engineerTo>
+<item key="7CF1D746-5194-E6D4-6F1B-CC8CB86CB329" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EndTime" id="DF3FDA8F-3547-2DA3-D04D-141427E5FEE9">
+<createdBy>Pavel</createdBy>
+<createdTime>2024-04-06 03:54:40 UTC</createdTime>
+<ownerDesignName>qwert</ownerDesignName>
+<engineerTo>
+<item key="7CF1D746-5194-E6D4-6F1B-CC8CB86CB329" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Type" id="BF09CC0A-AE78-851C-2EFC-D87F71678069">
+<createdBy>Pavel</createdBy>
+<createdTime>2024-04-06 05:03:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[The Type of Rent]]></commentInRDBMS>
+<ownerDesignName>qwert</ownerDesignName>
+<engineerTo>
+<item key="7CF1D746-5194-E6D4-6F1B-CC8CB86CB329" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

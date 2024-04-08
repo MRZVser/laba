@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="38865E1E-7967-FD46-76A0-86C31B9294FE" name="Accident">
+<createdBy>Pavel</createdBy>
+<createdTime>2024-04-06 11:52:18 UTC</createdTime>
+<generatorID>6A7363C6-955C-49A0-7DFC-5BA027E1C40D</generatorID>
+<ownerDesignName>qwert</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Link" id="11822BAD-CCA0-29E9-9DC1-A560F471A4A2">
+<createdBy>Pavel</createdBy>
+<createdTime>2024-04-06 11:52:18 UTC</createdTime>
+<comment><![CDATA[The customer needs to keep the sources from where the customer's accident history came from]]></comment>
+<commentInRDBMS><![CDATA[The customer needs to keep the sources from where the customer's accident history came from]]></commentInRDBMS>
+<generatorID>2041AC9F-A337-4768-7AFE-4344C793E3D0</generatorID>
+<ownerDesignName>qwert</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>70 CHAR</dataTypeSize>
+<ownDataTypeParameters>70 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Count" id="1A13B61A-20EC-548F-F672-28F87FD87C01">
+<createdBy>Pavel</createdBy>
+<createdTime>2024-04-06 11:52:18 UTC</createdTime>
+<comment><![CDATA[This is count of accidents in quantitative terms]]></comment>
+<commentInRDBMS><![CDATA[This is count of accidents in quantitative terms]]></commentInRDBMS>
+<generatorID>051D6430-275B-E4C7-AFBE-5242B4EABE57</generatorID>
+<ownerDesignName>qwert</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DateOfAccident" id="41E4BC00-976B-4F65-7BD8-7C34167AD65C">
+<createdBy>Pavel</createdBy>
+<createdTime>2024-04-06 11:52:18 UTC</createdTime>
+<comment><![CDATA[Shows the date of the last accident]]></comment>
+<commentInRDBMS><![CDATA[Shows the date of the last accident]]></commentInRDBMS>
+<generatorID>B67E6669-C9A7-7D2F-0C2F-C8CCB216BEDF</generatorID>
+<ownerDesignName>qwert</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Client_Client_ID" id="D1D2D329-F220-5133-8B94-37DC249D3063">
+<createdBy>Pavel</createdBy>
+<createdTime>2024-04-06 11:52:18 UTC</createdTime>
+<ownerDesignName>qwert</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6CD5080A-0854-3B02-52A4-25C1EDEB9DB0" referredColumn="5E19B1C0-7C5D-ADEF-3AFF-34B5406ECBCE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="734AE304-6875-ECDE-6B40-092AA68FA55F" name="Accident_Client_FK">
+<createdBy>Pavel</createdBy>
+<createdTime>2024-04-06 11:52:18 UTC</createdTime>
+<generatorID>A709DAC8-53BF-CBAB-EB03-657A2D307917</generatorID>
+<ownerDesignName>qwert</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D1D2D329-F220-5133-8B94-37DC249D3063"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

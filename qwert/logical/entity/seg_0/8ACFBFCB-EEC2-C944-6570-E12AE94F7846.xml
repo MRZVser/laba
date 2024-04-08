@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8ACFBFCB-EEC2-C944-6570-E12AE94F7846" name="Feedback">
+<createdBy>Pavel</createdBy>
+<createdTime>2024-04-06 03:30:55 UTC</createdTime>
+<ownerDesignName>qwert</ownerDesignName>
+<engineerTo>
+<item key="7CF1D746-5194-E6D4-6F1B-CC8CB86CB329" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<synonym>Отзыв</synonym>
+<synonymToDisplay>Отзыв</synonymToDisplay>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Rate" id="07B1AFD9-81A8-C377-D05B-E0BEF25BDF85">
+<createdBy>Pavel</createdBy>
+<createdTime>2024-04-06 03:55:10 UTC</createdTime>
+<ownerDesignName>qwert</ownerDesignName>
+<engineerTo>
+<item key="7CF1D746-5194-E6D4-6F1B-CC8CB86CB329" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Comment" id="4D45E573-DDF9-AFED-3C6C-870F9AE99283">
+<createdBy>Pavel</createdBy>
+<createdTime>2024-04-06 03:55:50 UTC</createdTime>
+<ownerDesignName>qwert</ownerDesignName>
+<engineerTo>
+<item key="7CF1D746-5194-E6D4-6F1B-CC8CB86CB329" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

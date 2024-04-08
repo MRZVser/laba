@@ -1,0 +1,163 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D16B9904-BFFB-8133-3F87-7B58F32FB81D" name="Car">
+<createdBy>Pavel</createdBy>
+<createdTime>2024-04-06 11:52:18 UTC</createdTime>
+<generatorID>8C64C230-4DEB-EB27-B28C-05B7214CECE8</generatorID>
+<ownerDesignName>qwert</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CarNumber" id="A711E84A-5234-A230-A354-483FDA7D944E">
+<createdBy>Pavel</createdBy>
+<createdTime>2024-04-06 11:52:18 UTC</createdTime>
+<generatorID>688920E0-105F-79D6-BDE0-B4366A77EBD4</generatorID>
+<ownerDesignName>qwert</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Release" id="9CE1B27F-4E70-A651-EF16-5ECA01ACB5E0">
+<createdBy>Pavel</createdBy>
+<createdTime>2024-04-06 11:52:18 UTC</createdTime>
+<comment><![CDATA[Year of release]]></comment>
+<commentInRDBMS><![CDATA[Year of release]]></commentInRDBMS>
+<generatorID>36A4D7F2-8BAB-2909-1140-0E971D895090</generatorID>
+<ownerDesignName>qwert</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Car_ID" id="FD9D4D8A-5010-B90B-12C3-B3F0196E6A25">
+<createdBy>Pavel</createdBy>
+<createdTime>2024-04-06 11:52:18 UTC</createdTime>
+<ownerDesignName>qwert</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="Client_Client_ID" id="76C1391C-7A88-A75C-CCAD-683FFA14746B">
+<createdBy>Pavel</createdBy>
+<createdTime>2024-04-06 11:52:18 UTC</createdTime>
+<ownerDesignName>qwert</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="573E7615-0DFB-E4D3-15D4-D8F695687658" referredColumn="5E19B1C0-7C5D-ADEF-3AFF-34B5406ECBCE"/>
+</associations>
+</Column>
+<Column name="TypeOfRent_TypeOfRent_ID" id="BA15A6B7-6C6F-0FA4-005B-9424EE0303AD">
+<createdBy>Pavel</createdBy>
+<createdTime>2024-04-06 11:52:18 UTC</createdTime>
+<ownerDesignName>qwert</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="57079C58-E4E4-2FD6-680B-7744A4695886" referredColumn="78507587-13CB-345E-B576-7D956112BEE0"/>
+</associations>
+</Column>
+<Column name="Model_Model_ID" id="52BDB130-323A-146C-9CD5-D889399FB985">
+<createdBy>Pavel</createdBy>
+<createdTime>2024-04-06 11:52:18 UTC</createdTime>
+<ownerDesignName>qwert</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4EB9DB86-6DD1-57F2-450E-931BF7619F66" referredColumn="B62DFAF8-CC26-4691-70A5-6764151C24BC"/>
+</associations>
+</Column>
+<Column name="Location_Location_ID" id="56F9E526-1E68-B3C1-6984-6B84DDBDBAAA">
+<createdBy>Pavel</createdBy>
+<createdTime>2024-04-06 11:52:18 UTC</createdTime>
+<ownerDesignName>qwert</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8A3822A7-7F14-1AC9-08CF-1186931AC7C5" referredColumn="684A64C7-AD35-C499-EF59-911A9F203967"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C525D601-A78F-523C-D918-C4008ED0FF2B" name="Car_PK">
+<createdBy>Pavel</createdBy>
+<createdTime>2024-04-06 11:52:18 UTC</createdTime>
+<ownerDesignName>qwert</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="FD9D4D8A-5010-B90B-12C3-B3F0196E6A25"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="84BB0067-AF41-0958-9002-1D6502EA4C5A" name="Car_Client_FK">
+<createdBy>Pavel</createdBy>
+<createdTime>2024-04-06 11:52:18 UTC</createdTime>
+<generatorID>E04C45D5-CA41-BB10-5D7E-CA81FBDF48CA</generatorID>
+<ownerDesignName>qwert</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="76C1391C-7A88-A75C-CCAD-683FFA14746B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FB3FC2E3-07EB-6DA9-568C-AB706E16CAEC" name="Car_TypeOfRent_FK">
+<createdBy>Pavel</createdBy>
+<createdTime>2024-04-06 11:52:18 UTC</createdTime>
+<generatorID>791F450D-D0A8-37C3-9073-1DA6274912C9</generatorID>
+<ownerDesignName>qwert</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BA15A6B7-6C6F-0FA4-005B-9424EE0303AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="69BAEF3C-11E3-0200-7C51-4D6CEFB8C50C" name="Car_Model_FK">
+<createdBy>Pavel</createdBy>
+<createdTime>2024-04-06 11:52:18 UTC</createdTime>
+<generatorID>6112CD24-C367-A46C-917F-CB03E35F258C</generatorID>
+<ownerDesignName>qwert</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="52BDB130-323A-146C-9CD5-D889399FB985"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2DFA7402-3E5E-D589-DB82-E2B949612DB3" name="Car_Location_FK">
+<createdBy>Pavel</createdBy>
+<createdTime>2024-04-06 11:52:18 UTC</createdTime>
+<generatorID>FC066F66-485B-1FC6-6F86-3949A7953C36</generatorID>
+<ownerDesignName>qwert</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="56F9E526-1E68-B3C1-6984-6B84DDBDBAAA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
